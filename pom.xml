@@ -72,8 +72,14 @@
                  </goals>
                </execution>
             </executions>
+    </plugin>
+    
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>25.5.0.107428</version>
       </plugin>
-  </plugins>
+    </plugins>
 	</build>
 	<dependencies>
 
