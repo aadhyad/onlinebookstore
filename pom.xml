@@ -74,11 +74,11 @@
             </executions>
     </plugin>
     
-      <plugin>
+      <!-- <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>25.5.0.107428</version>
-      </plugin>
+      </plugin> -->
     </plugins>
 	</build>
 	<dependencies>
@@ -103,11 +103,11 @@
 			<version>3.1.0</version>
 		</dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+        <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin 
 		<dependency>
     		   <groupId>org.sonarsource.scanner.maven</groupId>
    		   <artifactId>sonar-maven-plugin</artifactId>
    		   <version>5.1.0.4751</version>
-		</dependency>
+	   </dependency> -->
 	</dependencies>
 </project>
